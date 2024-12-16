@@ -30,13 +30,17 @@ Your Grafana deployment will consist of the following resources:
 - We will use on-demand pricing witout any reservations; 
 
 To complete this task, you will need to perform the following steps: 
+
 1. Use [AWS pricing calculator](https://calculator.aws/) to calculate our cloud infra costs. 
+
 2. Export results in JSON format: save it to file, called `estimate.json` in this repository. 
+
 3. Run automated test to check yourself. 
     ```
     pwsh ./tests/test-estimate.ps1
     ```
 If any test fails - please check your estimate and try again.
+
 4. Commit the `estimate.json`, and submit your solution for a review
 
 | :memo:        |Don't be worried about the total cost of infra: if you are using AWS free account - you will get all those resources for free    |
